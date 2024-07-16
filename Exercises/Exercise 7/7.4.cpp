@@ -99,6 +99,8 @@ namespace Exercises {
   */
 	void Ex_7_4_main()
 	{
+		cout << "Exercise 7.4\n";
+		cout << "This program will sort 10 words in ascending order.\n";
 		char matrix[10][5];
 		Input(matrix);
 		if (checkInput(matrix) == false)

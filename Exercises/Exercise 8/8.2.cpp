@@ -23,6 +23,8 @@ namespace Exercises {
      */
 	void Ex_8_2_main()
     {
+		cout << "Exercise 8.2:\n";
+		cout << "Welcome to the classroom database!" << endl;
         // Declaring all the variables
         int database_size = 0;
         int database[50] = { 0 };

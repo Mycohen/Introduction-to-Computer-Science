@@ -134,6 +134,8 @@ namespace Exercises {
   */
 	void Ex_8_1_main()
 	{
+		cout << "Exercise 8.1\n";
+		cout << "This program calculates the size of the jump between two arrays when an equality is found.\n"
 		int big[80] = { 0 }, small[80] = { 0 }, size1 = 0, size2 = 0;
 		input(big, small, size1, size2);
 		cout << "Size of jump:\n" << checkequality(big, small, size1, size2) << endl;

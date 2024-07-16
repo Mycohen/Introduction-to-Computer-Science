@@ -41,6 +41,8 @@ namespace Exercises {
      * then calls the printABsWrapper function with the entered number.
      */
     void Ex_11_1_main() {
+		cout << "Exercise 11.1:\n";
+		cout << "In this program you will enter a number and the program will print 'a' n times and 'b' n times." << endl;
         int number;
         cout << "Enter a number:" << endl;
         cin >> number;

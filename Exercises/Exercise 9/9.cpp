@@ -154,6 +154,8 @@ namespace Exercises {
   */
 	void Ex_9_main()
 	{
+		cout << "Exercise 9: Database of Classrooms\n"
+		cout << "Welcome to the classroom database!" << endl;
 		int* dataBase = NULL;
 		int num = 0, sizeODB = 0, machonCode;
 		cout << "Enter 0 to add a new classroom." << endl;

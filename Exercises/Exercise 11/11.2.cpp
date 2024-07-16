@@ -23,6 +23,7 @@ namespace Exercises {
         int* arr;
         int number;
 		cout << "Exercise 11.2:\n";
+		cout << "This program finds the smallest element in an array of integers." << endl;
 
         // Prompt the user to enter a positive number
         do {
