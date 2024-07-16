@@ -125,7 +125,7 @@ namespace Exercises {
 	void Ex_7_3_main()
 	{
 		cout << "Exercise 7.3: \n";
-		cout << "This program sorts the upper and lower triangles of a 10x10 matrix in ascending order.\n\n"
+		cout << "This program sorts the upper and lower triangles of a 10x10 matrix in ascending order.\n\n";
 		int matrix[10][10];
 		cout << "Enter the values:" << endl;
 		correctInput(matrix);

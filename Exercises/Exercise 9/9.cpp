@@ -1,12 +1,7 @@
 #include<iostream> 
 using namespace std;
 namespace Exercises {
-	/**
-  * Adds a new classroom to the database.
-  * @param ptrToDataBase A pointer to the database.
-  * @param sizeODB The size of the database.
-  * @param classCode The code of the classroom to add.
-  */
+
 	void newClass(int*& ptrToDataBase, int& sizeODB, int classCode)
 	{
 		if (sizeODB == 0)
@@ -50,13 +45,6 @@ namespace Exercises {
 			}
 		}
 	}
-
-	/**
-  * Deletes a classroom from the database.
-  * @param ptrToDataBase A pointer to the database.
-  * @param sizeODB The size of the database.
-  * @param classCode The code of the classroom to delete.
-  */
 	void delClass(int*& ptrToDataBase, int& sizeODB, int classCode)
 	{
 		bool flag = false;
@@ -85,12 +73,6 @@ namespace Exercises {
 			sizeODB = newSizeODB;
 		}
 	}
-
-	/**
-  * Prints all the classrooms in the database.
-  * @param dataBase The database of classrooms.
-  * @param sizeODB The size of the database.
-  */
 	void printAll(int* dataBase, int sizeODB)
 	{
 		for (size_t i = 0; i < sizeODB; i++)
@@ -98,14 +80,6 @@ namespace Exercises {
 			cout << dataBase[i] << ' ';
 		}
 	}
-
-	/**
-  * Searches for a specific classroom in the database.
-  * @param dataBase The database of classrooms.
-  * @param sizeODB The size of the database.
-  * @param classCode The code of the classroom to search for.
-  * @return A pointer to the found classroom, or NULL if not found.
-  */
 	int* searchClass(int* dataBase, int sizeODB, int classCode)
 	{
 		int result = -1;
@@ -131,13 +105,6 @@ namespace Exercises {
 		else
 			return NULL;
 	}
-
-	/**
-  * Prints all the classrooms for a specific Machon.
-  * @param dataBase The database of classrooms.
-  * @param sizeODB The size of the database.
-  * @param machonCode The code of the Machon.
-  */
 	void printCode(int* dataBase, int sizeODB, int machonCode)
 	{
 		for (size_t i = 0; i < sizeODB; i++)
@@ -148,14 +115,10 @@ namespace Exercises {
 			}
 		}
 	}
-
-	/**
-  * Main function for Exercise 9.
-  */
 	void Ex_9_main()
 	{
-		cout << "Exercise 9: Database of Classrooms\n"
-		cout << "Welcome to the classroom database!" << endl;
+		cout << "Exercise 9\n";
+		cout << "This program manages a database of classrooms.\n";
 		int* dataBase = NULL;
 		int num = 0, sizeODB = 0, machonCode;
 		cout << "Enter 0 to add a new classroom." << endl;
@@ -224,5 +187,6 @@ namespace Exercises {
 				cin >> num;
 			}
 		}
+		
 	}
 }

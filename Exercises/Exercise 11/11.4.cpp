@@ -4,7 +4,7 @@ using namespace std;
 namespace Exercises {
 
     // Function to swap elements at indices i and j
-    void swap(int* arr, int i, int j) {
+    void swap2(int* arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
@@ -17,7 +17,7 @@ namespace Exercises {
             return;
         }
         // Swap the start element with the corresponding end element
-        swap(arr, start, size - start - 1);
+        swap2(arr, start, size - start - 1);
         // Recursive call for the next pair
         reverse(arr, size, start + 1);
     }

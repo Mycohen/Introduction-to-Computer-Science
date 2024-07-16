@@ -2,18 +2,18 @@
 using namespace std;
 namespace Exercises {
     // Function to swap elements at indices i and j
-    void swap(int* arr, int i, int j) {
+    void swap1(int* arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
 
     // Recursive function to find the index of the smallest element in the array
-    int smallest(int* arr, int size, int start = 0) {
+    int smallest1(int* arr, int size, int start = 0) {
         if (size == 1) {
             return start;
         }
-        int minIndex = smallest(arr, size - 1, start + 1);
+        int minIndex = smallest1(arr, size - 1, start + 1);
         return (arr[start] < arr[minIndex]) ? start : minIndex;
     }
 
@@ -22,8 +22,8 @@ namespace Exercises {
         if (start >= size - 1) {
             return;
         }
-        int minIndex = smallest(arr, size - start, start);
-        swap(arr, start, minIndex);
+        int minIndex = smallest1(arr, size - start, start);
+        swap1(arr, start, minIndex);
         sort(arr, size, start + 1);
     }
 
