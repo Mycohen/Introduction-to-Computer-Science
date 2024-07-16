@@ -36,6 +36,8 @@ namespace Exercises {
   */
 	void Ex_6_2_main()
 	{
+		cout << "Exercise 6.2" << endl;
+		cout << "This program compares two vectors and counts the number of times the second vector appears as a subsequence in the first vector." << endl;
 		int sizeV1, sizeV2;
 		cout << "enter size of first array: ";
 		cin >> sizeV1;

@@ -42,6 +42,8 @@ namespace Exercises {
   * The main function.
   */
 	void Ex_6_4_main() {
+		cout << "Exercise 6.4" << endl;
+		cout << "The program picks up six positive decimal fractions different from each other and creates a new array of 6-integers, in which the serial values of the array numbers respectively appear." << endl;
 		float numbers[6];
 		int indices[6];
 		bool flag = true;

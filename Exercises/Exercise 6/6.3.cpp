@@ -44,6 +44,8 @@ namespace Exercises {
   */
 	void Ex_6_3_main()//The main function
 	{
+		cout << "Exercise 6.3" << endl;
+		cout << "The program picks up numbers (until 100 numbers) and creates a new array that updates the array so that each number in it appears only once" << endl;
 		int sizeOfArray, i, arr[100] = { 0 }, counter = 0;
 		cout << "enter up to 100  values, to stop enter 0:" << endl;
 		for (i = 0; i < 100; i++)

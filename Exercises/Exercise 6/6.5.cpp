@@ -55,6 +55,8 @@ namespace Exercises
   */
 	void Ex_6_5_main()
 	{
+		cout << "Exercise 6.5" << endl;
+		cout << "This program calculates the difference between two sets of 6 numbers." << endl;
 		int set1[6], set2[6], difference[6] = { 0 };
 		bool flag = false;
 		cout << "enter first 6 numbers:" << endl;

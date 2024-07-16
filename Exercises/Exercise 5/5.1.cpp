@@ -21,6 +21,8 @@ namespace Exercises
 
 	void Ex_5_1_main()
 	{
+		cout << "Exercise 5.1" << endl;
+		cout << "This program calculates the area of a rectangle and a circle." << endl;
 		int length, width, rectangleArea;
 		cout << "Enter length and width of the rectangle:" << endl;
 		cin >> length >> width; // Receiving the length and width.

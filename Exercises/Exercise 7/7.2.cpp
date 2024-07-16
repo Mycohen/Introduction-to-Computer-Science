@@ -36,6 +36,8 @@ namespace Exercises {
   */
 	void Ex_7_2_main()
 	{
+		cout << "Exercise 7.2" << endl;
+		cout << "This program merges three vectors into one vector in descending order." << endl;
 		const int MAXSIZE = 10;
 		int firstArr[MAXSIZE], secondArr[MAXSIZE], thirdArr[MAXSIZE];
 		int tempArr[MAXSIZE * 2], mergeArr[MAXSIZE * 3];

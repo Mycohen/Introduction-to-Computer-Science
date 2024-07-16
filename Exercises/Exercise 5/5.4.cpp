@@ -47,6 +47,8 @@ namespace Exercises
      */
     void Ex_5_4_main()
     {
+		cout << "Exercise 5.4" << endl;
+		cout << "This program will print the nearest greater prime number to the given number." << endl;
         srand((unsigned)time(NULL));
         int num;
         cout << "Enter number of values: ";

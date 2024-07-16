@@ -37,6 +37,8 @@ namespace Exercises {
     }
     void Ex_5_2_main()
     {
+		cout << "Exercise 5.2" << endl;
+		cout << "This program will print the perfect numbers up to the given number." << endl;
         int num;
         cout << "Enter a number: " << endl;//Accepting the number
         cin >> num;

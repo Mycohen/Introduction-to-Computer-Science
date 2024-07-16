@@ -35,6 +35,8 @@ namespace Exercises
   */
 	void Ex_6_1_main()
 	{
+		cout << "Exercise 6.1" << endl;
+		cout << "This program will check if all the numbers in the range of 1 to 15 are present in the array." << endl;
 		cout << "enter 15 numbers: ";
 		int arr[15] = { 0 };
 		for (int i = 0; i < 15; i++)

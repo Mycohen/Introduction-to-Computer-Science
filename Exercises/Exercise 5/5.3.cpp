@@ -52,6 +52,8 @@ namespace Exercises
   */
 	void Ex_5_3_main()
 	{
+		cout << "Exercise 5.3" << endl;
+		cout << "This program will calculate the full ID by appending the last digit ID." << endl;
 		long num;
 		const long minID = 10000000, maxID = 99999999; // Checking that the ID number is correct.
 		cout << "Enter your ID:";

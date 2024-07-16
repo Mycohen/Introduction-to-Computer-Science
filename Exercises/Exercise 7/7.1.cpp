@@ -66,6 +66,8 @@ namespace Exercises {
   */
 	void Ex_7_1_main()
 	{
+		cout << "Exercise 7.1" << endl;
+		cout << "This program will check if the 10 numbers you enter are in increasing order and then search for a number in the array." << endl;
 		int vector[10], sizeOfArr = 10, item, local;
 		
 		cout << "Enter 10 numbers: ";
